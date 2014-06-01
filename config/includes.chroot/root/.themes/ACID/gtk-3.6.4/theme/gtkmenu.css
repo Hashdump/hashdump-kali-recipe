@@ -1,0 +1,74 @@
+GtkMenu {
+-GtkMenu-vertical-offset: -1px;
+-GtkMenu-shadow-type: none;
+-GtkWidget-wide-seperators: 1;
+border: 1px solid #232323;
+-GtkMenuItem-arrow-scaling:0.35;}
+
+GtkMenu>GtkMenuItem {
+padding: 2px 0px;
+border: solid #232323;
+border-width: 0 1px; }
+
+GtkMenu>GtkMenuItem>GtkLabel {
+color: #888; }
+
+GtkMenu>GtkMenuItem>GtkLabel:hover {
+color: #a5e12d; }
+
+GtkMenuItem {
+-GtkMenuItem-arrow-scaling:0.5;
+engine: adwaita;}
+
+GtkCheckMenuItem {
+-GtkCheckMenuItem-indicator-size: 11px; }
+
+GtkMenuItem.radio,
+GtkMenuItem.radio:hover,
+GtkMenuItem.radio:insensitive {
+background-color: transparent; }
+
+GtkMenuItem.radio:active {
+background-color: transparent;
+background-image: url("../../images/menu-radiochecked-normal.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkMenuItem.radio:active:hover {
+background-color: transparent;
+background-image: url("../../images/menu-radiochecked-prelight.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkMenuItem.radio:active:insensitive {
+background-color: transparent;
+background-image: url("../../images/menu-radiochecked-insensitive.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkMenuItem.check,
+GtkMenuItem.check:hover,
+GtkMenuItem.check:insensitive {
+background-color: transparent; }
+
+GtkMenuItem.check:active {
+background-color: transparent;
+background-image: url("../../images/menu-boxchecked-normal.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkMenuItem.check:active:hover {
+background-color: transparent;
+background-image: url("../../images/menu-boxchecked-prelight.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkMenuItem.check:active:insensitive {
+background-color: transparent;
+background-image: url("../../images/menu-boxchecked-insensitive.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%; }
+
+GtkSeparatorMenuItem{
+-GtkWidget-wide-seperators:1;
+color:#232323;}

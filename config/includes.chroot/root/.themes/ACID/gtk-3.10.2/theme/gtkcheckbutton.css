@@ -1,0 +1,85 @@
+GtkCheckButton,
+GtkCheckButton:hover,
+GtkCheckButton:focus,
+GtkCheckButton:selected:hover,
+GtkCheckButton:focus:hover,
+GtkCheckButton:active:hover{
+-GtkCheckButton-indicator-size:11px;
+-GtkCheckButton-indicator-spacing:3;
+-GtkButton-child-displacement-x:0;
+-GtkButton-child-displacement-y:0;
+background-color:transparent;
+border:0px;
+box-shadow:none;}
+
+GtkCheckButton.check:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxunchecked-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check{
+background-color:transparent;
+background-image:url("../../images/boxunchecked-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:hover{
+background-color:transparent;
+background-image:url("../../images/boxunchecked-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:active:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxchecked-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:active{
+background-color:transparent;
+background-image:url("../../images/boxchecked-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:active:hover{
+background-color:transparent;
+background-image:url("../../images/boxchecked-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:inconsistent:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:inconsistent{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton.check:inconsistent:hover{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:none;}
+
+GtkCheckButton GtkLabel:hover,GtkCheckButton GtkLabel:active:hover{
+color:#a5e12d;}
+
+GtkCheckButton:active{
+color:#888;}
+
+GtkCheckButton:insensitive{
+color:#555;}

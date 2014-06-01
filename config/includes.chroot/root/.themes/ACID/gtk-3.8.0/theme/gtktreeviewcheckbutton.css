@@ -1,0 +1,61 @@
+.view.check:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxunchecked-treeview-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check{
+background-image:url("../../images/boxunchecked-treeview-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:hover{
+background-color:transparent;
+background-image:url("../../images/boxunchecked-treeview-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:active:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxchecked-treeview-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:active{
+background-color:transparent;
+background-image:url("../../images/boxchecked-treeview-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:active:hover{
+background-color:transparent;
+background-image:url("../../images/boxchecked-treeview-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:inconsistent:insensitive{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-treeview-insensitive.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:inconsistent{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-treeview-normal.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}
+
+.view.check:inconsistent:hover{
+background-color:transparent;
+background-image:url("../../images/boxinconsistent-treeview-prelight.gif");
+background-repeat:no-repeat;
+background-position:50% 50%;
+box-shadow:inset 0px -1px 0px 0px transparent;}

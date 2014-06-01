@@ -1,0 +1,48 @@
+GtkTreeView, GtkIconView, GtkListStore, GtkTextView, GtkTreeView row{
+-GtkTreeView-expander-size:11px;
+-GtkTreeView-indicator-size:11px;
+background-color:#555;
+color:#000;}
+
+GtkTreeView:selected:focused, GtkIconView:selected:focused, GtkListStore:selected:focused, GtkTextView:selected:focused{
+-GtkTreeView-expander-size:11px;
+-GtkTreeView-indicator-size:11px;
+background-color:#444;
+padding:1px;
+color:#a5e12d;}
+
+GtkTreeView column-header .button{
+background-color:#3d3d3d;
+border-width:0px 1px 1px 0px;
+border-color:#333;
+border-style:solid;
+padding:2px;}
+
+GtkTreeView column-header .button:active{
+background-color:#333;
+padding:2px;}
+
+GtkTreeView column-header .button GtkLabel{
+background-color:#3d3d3d;
+color:#888;}
+
+GtkTreeView column-header .button GtkLabel:hover{
+color:#a5e12d;}
+
+GtkTreeView column-header .button GtkLabel:active{
+background-color:#333;
+color:#a5e12d;}
+
+GtkTreeView row:nth-child(even){
+background-color:#555;}
+
+GtkTreeView row:nth-child(odd){
+background-color:#4f4f4f; }
+
+GtkTreeView row:selected{
+background-color:#4a4a4a;
+color:#a5e12d;}
+
+GtkTreeView row:selected:focused{
+background-color:#3f3f3f;
+color:#a5e12d;}

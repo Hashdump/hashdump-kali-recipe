@@ -1,0 +1,8 @@
+style"gtkiconview"
+{
+fg[SELECTED]="#a5e12d"
+fg[ACTIVE]="#a5e12d"
+base[SELECTED]="#333"
+base[ACTIVE]="#333"
+}
+widget_class"*GtkIconView*"style"gtkiconview"

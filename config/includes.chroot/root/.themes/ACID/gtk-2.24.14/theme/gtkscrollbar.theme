@@ -1,0 +1,190 @@
+style"gtkscrollbar"
+{
+xthickness=0
+ythickness=0
+GtkScrollbar::has_secondary_backward_stepper=0
+GtkScrollbar::has_secondary_forward_stepper=0
+GtkScrollbar::has_backward_stepper=1
+GtkScrollbar::has_forward_stepper=1
+GtkScrollbar::min_slider_length=15
+GtkRange::slider-width=9
+GtkRange::trough-under-steppers=0
+GtkRange::activate-slider=1
+GtkRange::stepper-displacement-x=0
+GtkRange::stepper-displacement-y=0
+GtkRange::stepper-size=7
+GtkRange::stepper-spacing=0
+GtkRange::trough-border=0
+engine"pixmap"
+{
+image
+{
+function=STEPPER
+state=INSENSITIVE
+overlay_file="../../images/arrow-up-insensitive.gif"
+overlay_stretch	=FALSE
+arrow_direction	=UP
+}
+image
+{
+function=STEPPER
+state=INSENSITIVE
+overlay_file="../../images/arrow-down-insensitive.gif"
+overlay_stretch	=FALSE
+arrow_direction	=DOWN
+}
+image
+{
+function=STEPPER
+state=INSENSITIVE
+overlay_file="../../images/arrow-left-insensitive.gif"
+overlay_stretch	=FALSE
+arrow_direction	=LEFT
+}
+image
+{
+function=STEPPER
+state=INSENSITIVE
+overlay_file="../../images/arrow-right-insensitive.gif"
+overlay_stretch	=FALSE
+arrow_direction	=RIGHT
+}
+image
+{
+function=STEPPER
+state=NORMAL
+overlay_file="../../images/arrow-up-normal.gif"
+overlay_stretch	=FALSE
+arrow_direction	=UP
+}
+image
+{
+function=STEPPER
+state=NORMAL
+overlay_file="../../images/arrow-down-normal.gif"
+overlay_stretch	=FALSE
+arrow_direction	=DOWN
+}
+image
+{
+function=STEPPER
+state=NORMAL
+overlay_file="../../images/arrow-left-normal.gif"
+overlay_stretch	=FALSE
+arrow_direction	=LEFT
+}
+image
+{
+function=STEPPER
+state=NORMAL
+overlay_file="../../images/arrow-right-normal.gif"
+overlay_stretch	=FALSE
+arrow_direction	=RIGHT
+}
+image
+{
+function=STEPPER
+state=ACTIVE
+overlay_file="../../images/arrow-up-active.gif"
+overlay_stretch	=FALSE
+arrow_direction	=UP
+}
+image
+{
+function=STEPPER
+state=ACTIVE
+overlay_file="../../images/arrow-down-active.gif"
+overlay_stretch	=FALSE
+arrow_direction	=DOWN
+}
+image
+{
+function=STEPPER
+state=ACTIVE
+overlay_file="../../images/arrow-left-active.gif"
+overlay_stretch	=FALSE
+arrow_direction	=LEFT
+}
+image
+{
+function=STEPPER
+state=ACTIVE
+overlay_file="../../images/arrow-right-active.gif"
+overlay_stretch	=FALSE
+arrow_direction	=RIGHT
+}
+image
+{
+function=STEPPER
+state=PRELIGHT
+overlay_file="../../images/arrow-up-prelight.gif"
+overlay_stretch	=FALSE
+arrow_direction	=UP
+}
+image
+{
+function=STEPPER
+state=PRELIGHT
+overlay_file="../../images/arrow-down-prelight.gif"
+overlay_stretch	=FALSE
+arrow_direction	=DOWN
+}
+image
+{
+function=STEPPER
+state=PRELIGHT
+overlay_file="../../images/arrow-left-prelight.gif"
+overlay_stretch	=FALSE
+arrow_direction	=LEFT
+}
+image
+{
+function=SLIDER
+state=INSENSITIVE
+file="../../images/slider-insensitive.gif"
+stretch	=TRUE
+border={3,3,3,3}
+}
+image
+{
+function=SLIDER
+state=NORMAL
+file="../../images/slider-normal.gif"
+stretch	=TRUE
+border={3,3,3,3}
+}
+image
+{
+function=SLIDER
+file="../../images/slider-active.gif"
+stretch	=TRUE
+border={3,3,3,3}
+}
+image
+{
+function=SLIDER
+file="../../images/slider-active.gif"
+stretch	=TRUE
+border={3,3,3,3}
+}
+image
+{
+function=BOX
+detail="trough"
+file="../../images/trough.gif"
+border={3,3,3,3}
+stretch=TRUE
+}
+}
+}
+class"GtkScrollbar"style"gtkscrollbar"
+
+style"gtkscrollbarlabel"
+{
+xthickness=0
+ythickness=0
+engine"mist"
+{
+}
+}
+class"GtkScrollbar>.<GtkLabel*"style"gtkscrollbarlabel"

@@ -1,0 +1,7 @@
+GtkToolbar{
+-GtkToolbar-internal-padding:1;
+-GtkToolbar-shadow-type:none;
+-GtkToolbar-space-size:1;}
+
+GtkToolbar .separator{
+color:transparent;}

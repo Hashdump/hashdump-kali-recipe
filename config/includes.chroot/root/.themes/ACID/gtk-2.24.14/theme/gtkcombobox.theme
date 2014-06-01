@@ -1,0 +1,10 @@
+style"gtkcombobox"
+{
+fg[NORMAL]="#888"
+text[NORMAL]="#888"
+text[PRELIGHT]="#a5e12d"
+engine"mist"
+{
+}
+}
+widget_class"*.<GtkComboBox>.*Cell*"style"gtkcombobox"

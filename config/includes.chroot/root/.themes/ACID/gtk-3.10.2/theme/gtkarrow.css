@@ -1,0 +1,6 @@
+GtkArrow, GtkMenuShell.arrow {
+-GtkArrow-arrow-scaling:0.3;
+-GtkMenuItem-arrow-scaling:0.3;}
+
+GtkArrow:hover,GtkMenuItem.arrow:hover{
+color:#a5e12d;}

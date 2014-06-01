@@ -1,0 +1,14 @@
+style"gtkinfobar"
+{
+xthickness=0
+ythickness=0
+GtkInfoBar::action-area-border=0
+GtkInfoBar::content-area-spacing=0
+GtkInfoBar::content-area-border=7
+GtkInfoBar::button-spacing=2
+font_name="bold"
+engine"mist"
+{
+}
+}
+class"GtkInfoBar"style"gtkinfobar"

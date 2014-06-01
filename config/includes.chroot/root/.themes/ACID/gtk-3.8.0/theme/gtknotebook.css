@@ -1,0 +1,59 @@
+GtkNotebook {
+-GtkNotebook-tab-curvature:3;
+-GtkNotebook-tab-overlap:1;
+-GtkNotebook-shadow-type:none;
+border-image:url("../../images/nbborder.gif") 2 stretch stretch;
+border-width:2px;
+border-style:solid;}
+
+GtkNotebook tab.top {
+padding:4px 4px 4px 4px;
+border-image:url("../../images/nbborder-tabtop-inactive.gif") 2 stretch stretch;
+border-width:2px 2px 0px 2px;
+border-style:solid;}
+
+GtkNotebook tab:active.top {
+border-image:url("../../images/nbborder-tabtop.gif") 2 stretch stretch;
+border-width:2px 2px 0px 2px;
+border-style:solid;}
+
+GtkNotebook tab.bottom {
+padding:4px 4px 4px 4px;
+border-image:url("../../images/nbborder-tabbottom-inactive.gif") 2 stretch stretch;
+border-width:0px 2px 2px 2px;
+border-style:solid;}
+
+GtkNotebook tab:active.bottom {
+padding:6px 4px 6px 4px;
+border-image:url("../../images/nbborder-tabbottom.gif") 2 stretch stretch;
+border-width:0px 2px 2px 2px;
+border-style:solid;}
+
+.notebook tab.left {
+padding:4px 4px 4px 4px;
+border-image:url("../../images/nbborder-tableft-inactive.gif") 2 stretch stretch;
+border-width:2px 0px 2px 2px;
+border-style:solid;}
+
+GtkNotebook tab:active.left {
+padding:4px 6px 4px 6px;
+border-image:url("../../images/nbborder-tableft.gif") 2 stretch stretch;
+border-width:2px 0px 2px 2px;
+border-style:solid;}
+
+GtkNotebook tab.right {
+padding:4px 4px 4px 4px;
+border-image:url("../../images/nbborder-tabright-inactive.gif") 2 stretch stretch;
+border-width:2px 2px 2px 0px;
+border-style:solid;}
+
+GtkNotebook tab:active.right {
+padding:4px 6px 4px 6px;
+border-image:url("../../images/nbborder-tabright.gif") 2 stretch stretch;
+border-width:2px 2px 2px 0px;
+border-style:solid;}
+
+/*
+.notebook tab GtkLabel {
+color: #ff00ff;}
+*/

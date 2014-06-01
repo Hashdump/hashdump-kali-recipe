@@ -1,0 +1,31 @@
+GtkWidget{
+-GtkWidget-draw-border:0;
+-GtkWidget-focus-line-width:0;
+-GtkHTML-link-color:#006eff;
+-GtkIMHtml-hyperlink-color:#006eff;
+-GtkWidget-link-color:#006eff;
+-GnomeHRef-link-color:#006eff;
+-GtkWidget-visited-link-color:#930093;
+-GtkHTML-visited-link-color:#930093;
+-GtkIMHtml-hyperlink-visited-color:#930093;
+-GtkExpander-expander-size:7;
+-GtkExpander-expander-spacing:2;
+-GtkExpander-expander-spacing:2;
+-GtkHandleBox-shadow-type:none;
+-GtkHandleBox-shadow:none;
+-GtkWidget-focus-line-width:0;
+-GtkWidget-window-dragging:true;
+-GtkWindow-resize-grip-height:14;
+-GtkWindow-resize-grip-width:20;
+-GtkScrolledWindow-shadow-type:none;
+-GtkArrow-arrow-scaling:0.5;}
+
+GtkWindow {
+background-color:#333;
+color:#888;}
+
+GtkWidget:insensitive,GtkWindow:insensitive{
+color:#555;}
+
+GtkSeparator, GtkVSeparator, GtkHSeparator{
+color:transparent;}

@@ -1,0 +1,27 @@
+@import url("theme/gtkwidget.css");
+@import url("theme/gtkdialogs.css");
+@import url("theme/gtkframe.css");
+@import url("theme/gtkstatusbar.css");
+@import url("theme/gtkpaned.css");
+@import url("theme/gtkbutton.css");
+@import url("theme/gtkcombobox.css");
+@import url("theme/gtkradiobutton.css");
+@import url("theme/gtkcheckbutton.css");
+@import url("theme/gtktreeviewcheckbutton.css");
+@import url("theme/gtkswitch.css");
+@import url("theme/gtkspinbutton.css");
+@import url("theme/gtkentry.css");
+@import url("theme/gtkprogressbar.css");
+@import url("theme/gtktoolbar.css");
+@import url("theme/gtkmenubar.css");
+@import url("theme/gtkmenu.css");
+@import url("theme/gtknotebook.css");
+@import url("theme/gtkrange.css");
+@import url("theme/gtkiconview.css");
+@import url("theme/gtktreeview.css");
+@import url("theme/gtkarrow.css");
+@import url("theme/fixes.css");
+
+/* not themeable
+@import url("theme/gtkexpander.css");
+*/

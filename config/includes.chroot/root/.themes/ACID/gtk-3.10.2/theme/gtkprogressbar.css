@@ -1,0 +1,14 @@
+GtkProgressBar, GtkTreeView GtkProgressBar{
+-GtkProgressBar-min-horizontal-bar-height: 12;
+-GtkProgressBar-min-horizontal-bar-width: 50;
+-GtkProgressBar-min-vertical-bar-height: 50;
+-GtkProgressBar-min-vertical-bar-width: 12;
+padding:1px;
+background-color: transparent;
+border:1px solid #232323;
+box-shadow:inset 0px 0px 1px 1px #404040;}
+
+GtkProgressBar.progressbar, GtkTreeView GtkProgressBar.progressbar{
+background-color:#a5e12d;
+border:1px solid rgba(255,255,255,0.4);
+box-shadow:inset 0px 0px 1px 1px #a5e12d;}

@@ -1,0 +1,14 @@
+GtkEntry GtkSpinButton{
+-GtkSpinButton-shadow-type:none;
+-GtkSpinButton-orientation:vertical;
+background-color:#333;
+color:#888;
+border-left:1px solid #232323;
+border-bottom:1px solid #232323;
+border-top:none;
+border-right:none;
+box-shadow:inset 0px 0px 0px 1px transparent;}
+
+GtkEntry GtkSpinButton:hover,
+GtkEntry GtkSpinButton:active{
+color:#a5e12d;}

@@ -1,0 +1,15 @@
+style "xfnotifywindow"
+{
+XfceNotifyWindow::border-color = "#a5e12d"
+XfceNotifyWindow::border-radius = 5
+XfceNotifyWindow::border-width = 0
+bg[NORMAL] = "#333" 
+}
+widget_class "*XfceNotifyWindow*" style "xfnotifywindow"
+
+style "xfnotifytext" = "GtkWidget"
+{
+fg[NORMAL] = "#a5e12d"
+fg[PRELIGHT] = "#a5e12d"
+}
+widget_class "*XfceNotifyWindow*.<GtkLabel>" style "xfnotifytext"

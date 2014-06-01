@@ -1,0 +1,6 @@
+GtkComboBox :hover{
+color:#a5e12d;}
+
+GtkComboBox .separator{
+color:transparent;
+background-color:transparent;}

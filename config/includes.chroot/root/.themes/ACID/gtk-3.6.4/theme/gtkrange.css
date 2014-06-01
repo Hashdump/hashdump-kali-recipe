@@ -1,0 +1,41 @@
+GtkRange,GtkScrollbar,GtkScale {
+-GtkScrollbar-has_secondary_backward_stepper:0;
+-GtkScrollbar-has_secondary_forward_stepper:0;
+-GtkScrollbar-has_backward_stepper:0;
+-GtkScrollbar-has_forward_stepper:0;
+-GtkScrollbar-min_slider_length:15;
+-GtkRange-slider-width:5;
+-GtkRange-trough-under-steppers:0;
+-GtkRange-activate-slider:1;
+-GtkRange-arrow-displacement-x:0;
+-GtkRange-arrow-displacement-y:0;
+-GtkRange-arrow-scaling:1.0;
+-GtkRange-stepper-size:0;
+-GtkRange-stepper-spacing:0;
+-GtkRange-trough-border:0;
+-GtkRange-shadow-type:none;
+background-color:transparent;}
+
+GtkRange.trough{
+background-color:#232323;
+border-image:url("../../images/though-gtk3.gif") 1;
+border-width:1px;
+border-style:solid;}
+
+GtkRange.slider{
+background-color:#888;
+border-image:url("../../images/slider-normal-gtk3.gif") 1;
+border-width:1px;
+border-style:solid;}
+
+GtkRange.slider:hover,GtkRange.slider:hover:active{
+background-color:#a5e12d;
+border-image:url("../../images/slider-active-gtk3.gif") 1;
+border-width:1px;
+border-style:solid;}
+
+GtkRange.slider:insensitive{
+background-color:#555;
+border-image:url("../../images/slider-insensitive-gtk3.gif") 1;
+border-width:1px;
+border-style:solid;}

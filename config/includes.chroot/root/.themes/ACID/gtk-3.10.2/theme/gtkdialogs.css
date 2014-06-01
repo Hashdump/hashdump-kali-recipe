@@ -1,0 +1,22 @@
+GtkAboutDialog,
+GtkColorSelectionDialog,
+GtkColorChooserDialog,
+GtkFileChooserDialog,
+GtkFileSelection,
+GtkFontSelectionDialog,
+GtkInputDialog,
+GtkMessageDialog,
+GtkPageSetupUnixDialog,
+GtkPrintUnixDialog,
+GtkRecentChooserDialog,
+Thunar,
+GtkDialog {
+background-image:url("../../images/dialogbg.gif");
+background-repeat:repeat-x;
+padding-bottom:3px;}
+
+GtkDialog GtkButton {
+/*this seems to fix the missing bottom-button-border on some dialogs
+eg: gtk demo entry buffer*/
+-GtkButton-default-border:3;
+padding-bottom:4px;}

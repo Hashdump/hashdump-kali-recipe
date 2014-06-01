@@ -1,0 +1,13 @@
+GtkExpander.expander{
+color: #ff00ff;
+background-color:#transparent;
+background-image:url("../../images/expanderminus-normal.gif");
+background-position:50% 50%;
+background-repeat:no-repeat;}
+
+GtkExpander.expander:active{
+color: #ffff00;
+background-color:#transparent;
+background-image:url("../../images/expanderminus-normal.gif");
+background-position:50% 50%;
+background-repeat:no-repeat;}

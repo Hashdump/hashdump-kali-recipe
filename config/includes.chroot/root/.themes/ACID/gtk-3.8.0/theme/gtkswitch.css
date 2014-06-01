@@ -1,0 +1,25 @@
+GtkSwitch.trough{
+background-color:transparent;
+border-top-width:1px;
+border-style:solid;
+border-top-color:#232323;
+border-left-width:1px;
+border-left-color:#232323;
+border-right-width:1px;
+border-right-color:#232323;
+border-bottom-width:1px;
+border-bottom-color:#424242;
+box-shadow:inset 0px -1px 0px 0px #232323;}
+
+GtkSwitch.trough:active{
+color:#a5e12d;}
+
+GtkSwitch.slider{
+padding-bottom:1px;
+-GtkButton-default-outside-border:0;
+-GtkButton-default-border:0;
+-GtkButton-shadow-type:none;
+-GtkWidget-focus-line-width:0;
+background-color:#333;
+border:1px solid #232323;
+box-shadow:inset 0px 0px 0px 1px #404040;}
